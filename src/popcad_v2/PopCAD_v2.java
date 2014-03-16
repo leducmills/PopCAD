@@ -1,5 +1,7 @@
 package popcad_v2;
 
+// Embodied Fabrication: Body-Centric Devices for Novice Designers
+
 import java.util.ArrayList;
 
 import processing.core.PApplet;
@@ -667,11 +669,8 @@ public class PopCAD_v2 extends PApplet {
 					mstMesh.clear();
 				}
 			}
-
-
 			counter++;
 		}
-
 	}
 
 
@@ -745,7 +744,7 @@ public class PopCAD_v2 extends PApplet {
 
 		String desktop = "/users/Ben/Desktop/UserData/";
 
-		timeStamp = desktop + "round2" + m.toString() + d.toString() + min.toString() + ".stl";
+		timeStamp = desktop + "user" + m.toString() + d.toString() + min.toString() + ".stl";
 
 		message = "Export Success!";
 
@@ -783,7 +782,6 @@ public class PopCAD_v2 extends PApplet {
 		mySTL.addMesh(mesh);
 		mySTL.saveAsSTL(getDate());
 	}
-
 
 	// --------------------------KNOT
 	// FUNCTIONS----------------------------------//
